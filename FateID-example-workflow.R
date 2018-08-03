@@ -1,5 +1,6 @@
 library(FateID) # see https://github.com/dgrun/FateID
 library(Seurat)
+library(data.table)
 
 aggr6 <- fread("Aggregation6.allLA_day0_day1_day2_day3_day5_day7.csv")
 aggr6 <- aggr6[!(grep('^RP', GeneId)),] #remove ribosomal proteins

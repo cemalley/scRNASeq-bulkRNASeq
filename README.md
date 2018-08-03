@@ -1,2 +1,2 @@
-# Single-cell RNASeq analysis
-Example scRNASeq analysis scripts with Seurat, Monocle, and other R packages for dimensionality reduction techniques (tSNE, PCA), differential gene expression, and visualization.
+# Single-cell and bulk RNASeq analysis
+Example scRNASeq analysis scripts with Seurat, Monocle, and other R packages for dimensionality reduction techniques (tSNE, PCA), differential gene expression, and visualization. For scRNASeq from 10X Genomics Chromium platform, I use cellranger demultiplexing, and for the ddSeq platform, I use Illumina BaseSpace demultiplexing. Seurat is my package of choice for single-cell data. For bulk RNASeq, I use a STAR-htseq-DESeq2 pipeline.
